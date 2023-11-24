@@ -1,9 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
-
 body {
 	font-family: "Outfit", sans-serif;
-	max-width: 1440px;
-	max-height: 100vh;
+	min-height: 100vh;
 	background: linear-gradient(
 		to right,
 		hsl(212, 45%, 89%),
@@ -13,39 +10,37 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: center;
 	gap: 40px;
+	text-align: center;
 }
 
-#container {
+.container {
 	margin-top: 100px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	background-color: white;
-	flex-wrap: wrap;
 	gap: 16px;
-	width: 300px;
+	max-width: 20rem;
 	border-style: none;
 	border-radius: 10px;
-	box-sizing: content-box;
 	padding: 12px;
 }
 
 img {
-	width: 300px;
 	border-radius: 10px;
 }
 
-.text {
+h1 {
 	padding: 7px;
 	font-weight: 700;
-	font-size: 20px;
+	font-size: 1.2rem;
 	text-align: center;
-	text-wrap: wrap;
 }
 
 .text p {
-	font-size: 15px;
+	font-size: 1.1rem;
 	font-weight: 400;
+	padding-bottom: 24px;
 }
