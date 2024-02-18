@@ -45,7 +45,7 @@ h1 {
 	padding-bottom: 24px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
 	.container {
 		max-width: 90%;
 		padding: 1.5rem;
